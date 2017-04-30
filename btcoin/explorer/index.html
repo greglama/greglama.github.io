@@ -1,0 +1,50 @@
+<!-- Page btcoin -->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="../../js/API.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../css/style.css">
+		
+		<title>Explorer</title>
+	</head>
+	
+	<body>
+
+		<h1>Explorer</h1>		
+		
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="../../index.html">Home</a></li>
+				<li><a href="../index.html">Btcoin</a></li>
+				<li class="active"><a href="#">Explorer</a></li>
+			</ul>
+			</div>
+		</nav>
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div class="container">
+				
+					<div class="view">
+						<h3> Explorer</h3>
+						<h4>Hash: <input type="text" id=hash></h4>
+						<button type="button" onclick="call('https://api.blockcypher.com/v1/btc/main/blocks/','#JSONdisplay');">submit</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-9">
+				<pre>
+					<div id="JSONdisplay">
+						<h3>Resultat de la requete</h3>
+					</div>
+				</pre>
+			</div>
+		</div>
+	</body>
+</html>

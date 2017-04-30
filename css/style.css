@@ -1,0 +1,107 @@
+
+body {
+	font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+	color: #444;
+	background:#f4f4f4;
+	padding:0 0 2em 0;
+	margin:0;
+}
+
+h1 {
+	color: #ff6600;
+	font-size: 5em;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #cccccc;
+	background: #e6e6ff;
+	border-bottom: 2px dotted #ccc;
+	margin: 0;
+	padding:0.8em;
+}
+
+h2{
+	color: #000066;
+	margin-left: 1em;
+}
+
+p{
+	margin: 2.5em;
+	font-size: 1.5em;
+}
+
+a:link,a:visited{
+    color: red;
+	font-size: 2em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+	display: inline-block;
+}
+
+
+/* Classe principale de la barre de navigation */
+.navbar-default {
+/* Couleur de fond de la barre de navigation */
+	background-color: #4d4dff;
+	border-color: #E7E7E7;
+}
+/* Couleur utilisée pour les liens */
+.navbar-default .navbar-nav > li > a {
+	color: #e6e6ff;
+}
+/* Couleur utilisée pour les liens lorsque la souris passe dessus */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ff6600;/*orange*/
+}
+/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ff6600; /*orange*/
+	background-color: #000066;/*bleu foncé*/
+}
+
+.view{
+	margin-top: 2em;
+    margin-right: 90em;
+    margin-left: 1em;
+	
+	padding-left: 1em;
+	padding-bottom: 1em;
+	
+	background-color: #e6e6ff;
+	border-color: black;
+	color: #000066;
+	
+	border-style: solid;
+	border-bottom-color: black;
+}
+
+.mainTxt{
+	margin-top: 2em;
+    margin-left: 7em;
+	
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.key{
+	color: #ff6600;
+}
+.string{
+	color: black;
+}
+
+#JSONdisplay{
+	background-color: #e6e6ff;
+	border-color: black;
+	color: #000066;
+	
+	border-style: solid;
+	border-bottom-color: black;
+	
+	margin: center;
+	
+	padding-left: 1em;
+	padding-bottom: 30em;
+}
